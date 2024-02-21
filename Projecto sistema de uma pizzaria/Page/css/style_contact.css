@@ -1,0 +1,61 @@
+
+
+body {
+    background-color: #110921;
+    color: white;
+}
+
+div.flex1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 150px;
+}
+
+form.form-signup {
+    width: 25%;
+}
+
+form.form-signup div.form-title-group {
+    text-align: center;
+  
+}
+
+form.form-signup div.form-title-group h1 {
+    margin-top: 25px;
+}
+
+form.form-signup div.form-title-group h1 span {
+    color: orangered;
+}
+
+form.form-signup div.form-group,
+form.form-signup div.form-submit {
+    width: 100%;
+    padding: 10px;
+}
+
+form.form-signup div.form-group input, 
+form.form-signup div.form-group textarea, 
+form.form-signup div.form-submit input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+}
+form.form-signup div.form-submit input {
+    color: white;
+    font-weight: 600;
+    background-color: rgb(0, 140, 255);
+    cursor: pointer;
+    margin-bottom: 85px;
+}
+
+#msg{
+    height: 100px;
+}

@@ -1,0 +1,38 @@
+.flex2{
+
+    margin: 200px;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+h3{
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+.local{
+    margin: 15px;
+
+}
+span{
+    margin-top: 10px;
+    text-align: justify;
+}
+hr{
+   
+    border: 1px dotted black
+}
+.nossa{
+    
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.nossa:hover{
+    cursor: pointer;
+}

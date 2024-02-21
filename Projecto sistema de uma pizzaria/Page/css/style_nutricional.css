@@ -1,0 +1,26 @@
+.flex2{
+    margin: 150px;
+    text-align: justify;
+    font-size: 13pt;
+}
+
+.td1{
+    width:220px;
+     border-top:1px dotted #666; 
+     padding:20px 0;
+}
+
+.td2{
+    border-top:1px dotted #666; 
+    padding:10px 0; 
+    vertical-align:middle;
+}
+
+.h4{
+    margin-bottom:0;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}

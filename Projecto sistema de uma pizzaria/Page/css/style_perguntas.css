@@ -1,0 +1,30 @@
+.flex2{
+    margin: 150px;
+ 
+}
+
+
+p{
+    text-align: justify;
+}
+
+.pergunta{
+    margin: 50px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+hr{
+    margin: 10px;
+    border:  1px dotted black;
+}
+.hh{
+    margin: 10px;
+    color: #0b0c0c;
+    opacity: 0.7;
+}
+.resposta{
+    margin: 20px;
+}

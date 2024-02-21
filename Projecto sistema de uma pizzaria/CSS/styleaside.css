@@ -1,0 +1,143 @@
+.home {
+    display: box;
+    display: flexbox;
+    display: flex;
+    box-pack: start;
+    justify-content: flex-start;
+    box-align: start;
+    align-items: flex-start;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    
+    overflow: hidden;
+    width: 1330px;
+    height: 640px;
+    
+}
+
+.home .container3 {
+    margin: 0 0 0 auto;
+    margin-top: auto;
+    margin-right:auto;
+    margin-bottom: 0px;
+    margin-left: 70px;
+   
+}
+
+
+.login-card-new {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #F4F4F4;
+    max-width: 600px;
+    width: 100%;
+    width: 335px;
+    height: 510px;
+    padding: 25px;
+    margin-left: 800px;
+}
+ 
+.login-card-new .title {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 30px;
+    color: #000000;
+    text-transform: uppercase;
+  
+}
+.login-card-new .subtitle {
+    color: #6C7279;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin: 10px 0 18px;
+}
+.field {
+    margin-bottom: 10px;
+    position: relative;
+}
+.login-card-new input {
+    height: 45px;
+    border: 1px solid #DEDEDE;
+    border-radius: 22.5px;
+    background-color: #FFFFFF;
+}
+input[type="email"] {
+    text-transform: lowercase;
+}
+input[type="text"], input[type="password"], input[type="email"]{
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0;
+    padding: 16px 17px;
+    width: 100%;
+    font: 400 16px/ 120% Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border: 1px solid #848484;
+    vertical-align: top;
+    white-space: nowrap;
+    resize: vertical;
+    background: #ffffff;
+}
+.login-card-new .forgot-password {
+    color: #6C7279;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: 10px;
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+}
+
+.login-card-new .button[type="submit"], .login-card-new .btn,.button-transparent-vibrate {
+    display: block;
+    width: 100%;
+    height: 45px;
+    border-radius: 22.5px;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 18px;
+    text-align: center;
+    display: flex;
+    box-align: center;
+    align-items: center;
+    box-pack: center;
+    justify-content: center;
+}
+.button[type="submit"]{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 12px 20px;
+    background: #ff2f24;
+    border-color: #ff2f24;
+    color: #ffffff;
+    font: 700 20px/120% Arial, Helvetica, sans-serif;
+}
+.button-transparent-vibrate{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 12px 20px;
+}
+.login-card-new .new-account {
+    margin-top: 10px;
+    color: #6C7279;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+.login-card-new .new-account > a {
+    font-weight: bold;
+    color: #000000;
+}
+.login-card-new .button[type="submit"].transparent {
+    margin-top: 15px;
+    color: #000000;
+    background-color: #ECECEC;
+}
